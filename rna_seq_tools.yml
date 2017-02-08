@@ -61,6 +61,13 @@ tools:
   revisions:
   - 8702e49e68b6
 
+- name: package_htseq_0_6
+  owner: iuc
+  tool_panel_section_label: "RNA-Seq"
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  install_resolver_dependencies: True
+  install_tool_dependencies: False
+
 - name: htseq_count
   owner: lparsons
   tool_panel_section_label: "RNA-Seq"
